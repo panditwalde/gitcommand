@@ -1,0 +1,47 @@
+git init  =intialize
+git add -A
+git status =check status
+         +
+git commit -m "any message"
+   OR
+git commit -a -m "any message" 
+git remote add origin "http..."
+
+git push origin BranchName
+git clone "url"
+git pull "url"
+
+Created Branch
+
+git branch GitCommands
+git checkout to switch in New banch
+git diff, find diifrence between last commit and new commit
+
+touch About.html
+touch Menu.html
+touch ContactUs.html
+
+
+touch waste.html
+and delete this
+
+git rm -- cached waste.html
+git rm waste.html
+git log -p -1, to check recent a commit only if we use -2 and -3 we can see respectively commits
+
+
+git merge BranchName to merge with Master
+git remote set-url origin repo-url => use for set another Remote file
+git push/fetch origin BranchName/Master
+git pull/clone "URL" our local code and remote code 
+git remote -v=>use for verificaation our origin
+git reset About.html=>when we added by mistake but we don't want to add in remote
+ls for checking all files
+ls -lart is use for show all desktop files 
+
+git .gitignore=>use for which i make a file bymistak and don't want to show that so save that file into gitignore and push complte data remotly gitignore ignore that file. it will not show ur ignore file in remotely
+
+
+
+
+
